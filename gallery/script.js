@@ -11,7 +11,7 @@ $('.filter-button').on('click', function(e){
 	// }
 	$('.' + species).toggle();
 	$('#' + species).toggleClass('active');
-
+	alertify.log('toggled ' + species + 's');
 });
 
 // function hideAnimals(species){
